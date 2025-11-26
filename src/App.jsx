@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/Home"; // your login page (Home.jsx)
 import AdminDashboard from "./pages/AdminDashboard";
